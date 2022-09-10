@@ -10,9 +10,9 @@ Feature: Comment Like Feature
     Then I see the “Teşekkür Ederiz” message
 
 
-  Scenario: Go to the product detail page and if there is no comment do nothing
-    Given I'm going to the "hepsiburada.com" website
-    And I search a product to see details
-    When I don't see any comment
-    Then I quit the product detail page
+#  Scenario: Go to the product detail page and if there is no comment do nothing
+ #   Given I'm going to the "hepsiburada.com" website
+  #  And I search a product to see details
+   # When I don't see any comment
+    #Then I quit the product detail page
 

@@ -3,25 +3,25 @@ package TestCases;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
+import dataProvider.ConfigFileReader;
 import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeTest;
-import dataProvider.ConfigFileReader;
 
 import java.util.concurrent.TimeUnit;
 
 
 public class Hook {
-   public static WebDriver driver;
+   //public static WebDriver driver;
    public String baseURL = ConfigFileReader.getApplicationUrl();
 
-
+   public static WebDriver driver = new ChromeDriver();
     @BeforeTest
     public void setUp() {
 
         try {
             ConfigFileReader configFileReader = new ConfigFileReader();
             System.setProperty("webdriver.chrome.driver", configFileReader.getDriverPath());
-            driver = new ChromeDriver();
+            driver=new ChromeDriver();
             driver.manage().window().maximize();
             driver.manage().timeouts().implicitlyWait(configFileReader.getImplicitlyWait(), TimeUnit.SECONDS);
 

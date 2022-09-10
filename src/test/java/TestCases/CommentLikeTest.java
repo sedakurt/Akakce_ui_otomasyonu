@@ -45,7 +45,7 @@ public class CommentLikeTest {
     }
 
     @Then("I see the “Teşekkür Ederiz” message")
-    public void iSeeTheTeşekkürEderizMessage() {
+    public void iSeeTheMessage() {
     }
 
     @When("I don't see any comment")
