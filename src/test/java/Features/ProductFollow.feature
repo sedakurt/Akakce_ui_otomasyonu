@@ -1,5 +1,5 @@
-@CommentLikeTest
-Feature: Comment Like Feature
+@ProductFollowTest
+Feature: Product Follow Feature
   Scenario: Go to the product detail page and following
     Given I'm going to the "akakce.com" website
     And I search a product to see details
