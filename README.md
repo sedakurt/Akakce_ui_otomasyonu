@@ -10,7 +10,7 @@ Bu projede Akakçe tarafından verilen Test otomasyon UI case' i oluşturulmuşt
 * Raporlama için JUnit, TestRunner kullanıldı.
 
 ## Task İsterleri
-*	Kullanıcı hepsiburada.com sitesini ziyaret eder.
+*	Kullanıcı akakce.com sitesini ziyaret eder.
 *	Kullanıcı arama işlemi yapar (Örnek: “kulaklık” gibi)
 *	Kullanıcı, arama sonrası herhangi bir ürün listelenmezse bir işlem yapmaz.
 *	Kullanıcı arama sonucunda gelen ürün listesinden ürün seçer ve ürün detay sayfasına gider.
