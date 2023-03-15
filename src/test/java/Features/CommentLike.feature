@@ -1,6 +1,6 @@
 @CommentLikeTest
 Feature: Comment Like Feature
-  Scenario: Go to the product detail page and do comment like
+  Scenario: Go to the product detail page and following
     Given I'm going to the "akakce.com" website
     And I search a product to see details
     When There is any product do nothing
