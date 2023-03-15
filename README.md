@@ -1,9 +1,9 @@
 # UI Otomasyon Testi #
-Bu projede Hepsiburada tarafından verilen Test otomasyon UI case' i oluşturulmuştur.
+Bu projede Akakçe tarafından verilen Test otomasyon UI case' i oluşturulmuştur.
 
 ## Proje Özellikleri
 * Selenium Cucumber Gherkin ile Java dilinde BDD yaklaşımı kullanılarak hazırlanmıştır.
-* Url: https://hepsiburada.com
+* Url: https://akakce.com
 * Tarayıcı olarak GoogleChrome kullanıldı.
 * Assertion için JUnit kütüphanesi kullanıldı.
 * Webdriver, url gibi verilerin config dosyasından çağırılacağı bir properties dosyası oluşturuldu. 
@@ -11,14 +11,11 @@ Bu projede Hepsiburada tarafından verilen Test otomasyon UI case' i oluşturulm
 
 ## Task İsterleri
 •	Kullanıcı hepsiburada.com sitesini ziyaret eder.
-•	Kullanıcı arama işlemi yapar (Örnek: “iphone” gibi popüler ve yorumu olan bir ürün)
+•	Kullanıcı arama işlemi yapar (Örnek: “kulaklık” gibi)
+•	Kullanıcı, arama sonrası herhangi bir ürün listelenmezse bir işlem yapmaz.
 •	Kullanıcı arama sonucunda gelen ürün listesinden ürün seçer ve ürün detay sayfasına gider.
-•	Kullanıcı seçilen ürün için ürün detayda “Yorumlar” tabına gider.
-•	Kullanıcı gelen yorumlar içerisinde ilk yorumun “Evet” butonuna basar.
-•	Kullanıcı “Teşekkür Ederiz” yazısını görür.
-•	Kullanıcı eğer yorumlar tab’ında hiç yorum gelmiyorsa herhangi bir işlem yapmaz.
+•	Kullanıcı seçilen ürün için ürün detayda “Takip Et” butonuna tıklar.
+•	Kullanıcı sayfanın giriş sayfasına yönlendirildiğini görür.
 
 Notlar:
-•	Test yazılırken okunabilirlik, isimlendirmeler, kod tekrarı gibi standartlara dikkat edilmelidir.
-•	Testler herhangi bir platformda yazılabilir(Java-Selenium,Ruby-Capybara,Python-Robot Framework gibi)
-
+•	Test yazılırken okunabilirlik, isimlendirmeler, kod tekrarı gibi standartlara dikkat edildi.
