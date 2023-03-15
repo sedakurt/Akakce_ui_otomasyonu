@@ -15,7 +15,7 @@ import java.time.Duration;
 import java.util.concurrent.TimeUnit;
 
 
-public class CommentLikeTest {
+public class ProductFollowTest {
     ConfigFileReader configFileReader = new ConfigFileReader();
     public WebDriver driver;
     String baseURL = configFileReader.getApplicationUrl();
@@ -62,8 +62,8 @@ public class CommentLikeTest {
         JavascriptExecutor jsx = (JavascriptExecutor) driver;
         jsx.executeScript("window.scrollBy(0,500)", "");
         Thread.sleep(2000);
-        WebElement commentElement = driver.findElement(By.cssSelector("#pf_w_v8 > span"));
-        commentElement.click();
+        WebElement followElement = driver.findElement(By.cssSelector("#pf_w_v8 > span"));
+        followElement.click();
     }
     @Then("I see the login page")
     public void iSeeTheLoginPage() {
