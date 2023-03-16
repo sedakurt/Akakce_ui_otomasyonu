@@ -9,7 +9,7 @@ import java.util.Properties;
 public class ConfigFileReader {
 
     private static Properties properties;
-    private final String propertyFilePath= "C:\\Users\\09371169\\IdeaProjects\\Akakce_ui_otomasyonu\\configs\\Configuation.properties";
+    private final String propertyFilePath= "..\\Akakce_ui_otomasyonu\\configs\\Configuation.properties";
 
 
     public ConfigFileReader(){
